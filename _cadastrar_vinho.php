@@ -2,31 +2,62 @@
     include(".\process\connection\connection.php");
 ?>
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <title>Wine | Cadastro</title>
-</head>
-<body>
-    <div class="container card">
-        <div class="card-header">
-            <h3>Wine Info</h3>
-        </div>
-        <div class="card-body">
-            <h3 class="card-title">Cadastre o Vinho</h3>
-            <p>Exmeplo</p>
-        </div>
-        <form action="_inserir_vinho.php" method="POST">
-                <div class="input-group">
-                    <input placeholder="Nome" name="nome_mass" id="nome_mass" type="text" class="input--style-2">
-                </div>
-        </form>
-    </div>
+<?php  
+    //Head HTML
+    include(".\page\_header.php");
+?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-</body>
-</html>
+<body>
+
+    <div class="page-wrapper bg-wine p-t-100 p-b-100 font-robo">
+        <div class="wrapper wrapper--w680">
+            <div class="card card-1">
+                <div class="card-heading"></div>
+                <div class="card-body">
+                    <h2 class="title">Registrar informações sobre o Vinho</h2>
+                    <form action="_inserir_vinho.php" method="POST" enctype="multipart/form-data">
+                        <div class="input-group">
+                            <input type="text" id="nome_wine" name="nome_wine" placeholder="Nome do vinho" class="input--style-1">
+                        </div>
+                        <div class="row row-space">
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <input placeholder="Origem" id="origem_wine" name="origem_wine"  type="text" class="input--style-1">
+                                </div>
+                            </div>
+                            <div class="col-2">
+                                <div class="input-group">
+                                    <input placeholder="Safra" id="safra_wine" name="safra_wine"  type="text" class="input--style-1">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <input type="text" id="harminizacao_wine" name="harminizacao_wine"  placeholder="Harmonização" class="input--style-1">
+                        </div>
+                        
+
+                        <div class="col-2">
+                            <div class="input-group">
+                                <input placeholder="Temperatura" id="temperatura_wine" name="temperatura_wine"  type="text" class="input--style-1">
+                            </div>
+                        </div>
+
+                        <div class="input-group">
+                            <input id="foto_wine" name="foto_wine" type="file" class="input--style-1" aria-describedby="foto_wine">
+                        </div>
+
+                        <div class="p-t-20">
+                            <button class="btn btn--radius btn--wine" type="submit">Cadastrar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+<?php
+    //Final BODY SCRIPT
+    include(".\page\_footer.php");
+?>

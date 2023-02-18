@@ -1,0 +1,150 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Cadastrar Vinho */
+
+.p-b-100{
+    padding-bottom: 100px;
+}
+
+.p-t-100{
+    padding-top: 100px;
+}
+
+.bg-wine{
+    background: rgb(145, 12, 52);
+}
+
+.page-wrapper{
+    min-height: 100vh;
+}
+
+.font-robo{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.wrapper--w680{
+    max-width: 680px;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+.card-1{
+    box-shadow: 0 8px 20px 0 rgb(0 0 0 / 15%);
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 3px;
+    background: #FFF;
+}
+
+.card-1 .card-heading{
+    background: url(../img/adega.jpg) center center/cover no-repeat;
+    padding-top: 210px;
+}
+
+.card-1 .card-body{
+    padding: 0 90px;
+    padding-top: 55px;
+    padding-bottom: 65px;
+}
+
+.title{
+    margin-bottom: 37px;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h1, h2, h3{
+    font-weight: 400px;
+}
+
+form{
+    display: block;
+}
+
+/* inputs */
+
+.input-group{
+    position: relative;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #CCC;
+}
+
+.input--style-1{
+    padding: 9px 0;
+    color: #666;
+}
+
+input{
+    outline: none;
+    margin: 0;
+    border: 0;
+    box-shadow: none;
+    width: 100%;
+    font-size: 14px;
+    font-family: inherit;
+}
+
+.row-space{
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-2{
+    width: calc((100% - 60px)/2);
+}
+
+.p-t-20{
+    padding-top: 20px;
+}
+
+.btn--wine{
+    background: rgb(145, 12, 52);
+}
+
+.btn--wine2{
+    background: rgb(247, 131, 166);
+}
+
+.btn--wine2:hover{
+    background: rgb(165, 29, 70);
+}
+
+.btn--wine:hover{
+    background: rgb(207, 121, 147);
+    color: #FFF;
+}
+
+.btn--radius{
+    border-radius: 3px;
+}
+
+.btn{
+    line-height: 40px;
+    display: inline-block;
+    padding: 0 25px;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #FFF;
+    transition: all .4s ease;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+button{
+    outline: none;
+    border: none;
+}
