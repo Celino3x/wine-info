@@ -1,5 +1,6 @@
 <?php
     include("..\process\connection\connection.php");
+    header('Access-Control-Allow-Origin: *');
 
 
 $dados = array();
