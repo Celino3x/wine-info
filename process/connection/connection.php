@@ -6,6 +6,6 @@
        echo "Falha ao conectar com base de dados: ".mysqli_connect_error();
         exit();
     } else{
-        //echo "<h1>Você está conectado!</h1><p>Ambiente em desenvolvimento</p>";
+       // echo "<h1>Você está conectado!</h1><p>Ambiente em desenvolvimento</p>";
     }
 ?>
