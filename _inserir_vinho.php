@@ -37,7 +37,7 @@ $inserir = mysqli_query($conexao, $sql);
                 <h2 class="title">Vinho Cadastrado</h2>
                 <div class="p-t-20">
                     <button href="index.php" class="btn btn--radius btn--wine" type="submit">Voltar</button>
-                    <button href="index.php" class="btn btn--radius btn--wine2" type="submit">Cadastrar Novo</button>
+                    <button href="_cadastrar_vinho.php" class="btn btn--radius btn--wine2" type="submit">Cadastrar Novo</button>
                 </div>
             </div>
         </div>

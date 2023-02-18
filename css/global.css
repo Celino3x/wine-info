@@ -148,3 +148,114 @@ button{
     outline: none;
     border: none;
 }
+
+/*  INDEX */
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+.ftco-section{
+    padding: 7em 0;
+}
+
+section{
+    display: block;
+}
+
+.justify-content-center{
+    -webkit-box-pack: center !important;
+    justify-content: center !important;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.mb-4{
+    margin-bottom: 1.5rem !important;
+}
+
+.col-md-6{
+    -webkit-box-flex: 0;
+    flex: 0 0 50%;
+    max-width: 50%;
+    
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.heading-section{
+    font-size: 28px;
+    color: #000;
+}
+
+.col-md-12{
+    -webkit-box-flex: 0;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.table-wraap{
+    overflow-x: scroll;
+}
+
+.table{
+    min-width: 1000px !important;
+    width: 100%;
+    background: #FFF;
+    box-shadow: 0px 5px 12px -12px rgb(0, 0, 0 / 29%);
+    color: #212529;
+    margin-bottom: 1rem;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.table thead.thead-primary{
+    background: rgb(145, 12, 52);
+    color: #FFF;
+}
+
+tr{
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+
+thead{
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+.table tbody tr{
+    margin-bottom: 10px;
+}
+
+.foto_wines{
+    width: 150px;
+    height: 190px;
+
+    border-radius: 50% 50% 50% 50% / 51% 50% 50% 49%  ;
+}
+
+.table tbody th, .table tbody td{
+    border: none;
+    padding: 30px;
+    font-size: 14px;
+    background: #FFF;
+    border-bottom: 4px solid #f8f9fd;
+    vertical-align: middle;
+}
