@@ -251,6 +251,16 @@ thead{
     border-radius: 50% 50% 50% 50% / 51% 50% 50% 49%  ;
 }
 
+.foto_wines:hover{
+    width: 150px;
+    height: 190px;
+
+    border-radius: 50% 50% 50% 50% / 51% 50% 50% 49%  ;
+    transform: rotate(45deg);
+    transition-duration: 0.5s;
+
+}
+
 .table tbody th, .table tbody td{
     border: none;
     padding: 30px;
