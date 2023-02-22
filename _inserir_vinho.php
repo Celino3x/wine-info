@@ -30,7 +30,7 @@ $inserir = mysqli_query($conexao, $sql);
 
 ?>
 
-<div class="page-wraooer bg-wine p-t-100 font-robo">
+<div class="container page-wraooer bg-wine p-t-100 font-robo">
     <div class="wrapper wrapper--680">
         <div class="card card1">
             <div class="card-body">
